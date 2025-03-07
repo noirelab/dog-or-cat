@@ -1,5 +1,5 @@
 # Dog/Cat Classifier
-Este projeto é uma aplicação de classificação de imagens para distinguir gatos e cachorros utilizando técnicas de transferência de aprendizado.
+Este é projeto final do LAMIA, sendo uma aplicação de classificação de imagens para distinguir gatos e cachorros utilizando técnicas de transferência de aprendizado.
 
 ## 1. Organização dos Dados
 Foi usado o dataset ["Cat and Dog"](https://www.kaggle.com/datasets/tongpython/cat-and-dog), vindo do site Kaggle.
@@ -19,8 +19,8 @@ O treinamento é realizado utilizando técnicas como Early Stopping e Checkpoint
 ## 5. Avaliação e Métricas
 Após o treinamento, o desempenho do modelo é avaliado com métricas como acurácia, perda, recall e uma matriz de confusão. Essas métricas permitem identificar a eficácia do modelo na distinção entre as classes. Gráficos ilustram a evolução da acurácia e da perda durante o treinamento, fornecendo uma visão clara do comportamento do modelo.
 O modelo chegou nos seguintes resultados:
-- Acurácia de Treinamento: 99.45%
-- Acurácia de validação: 98.91%
-- Recall: 99.01%
+- Acurácia de Treinamento: 99.56%
+- Acurácia de validação: 98.71%
+- Recall: 99.30%
 
 ![Matriz Confusão](/images/confusion_matrix.png)
