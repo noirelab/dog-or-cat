@@ -16,6 +16,10 @@ O treinamento é realizado utilizando técnicas como early stopping e checkpoint
 
 ## 5. Avaliação e Métricas
 Após o treinamento, o desempenho do modelo é avaliado com métricas como acurácia, perda, recall e uma matriz de confusão. Essas métricas permitem identificar a eficácia do modelo na distinção entre as classes. Gráficos ilustram a evolução da acurácia e da perda durante o treinamento, fornecendo uma visão clara do comportamento do modelo.
+O modelo chegou nos seguintes resultados:
+- Acurácia de Treinamento: 99.45%
+- Acurácia de validação: 98.91%
+
 ![Matriz Confusão](/images/confusion_matrix.png)
 
 ## 6. Teste com Novas Imagens
