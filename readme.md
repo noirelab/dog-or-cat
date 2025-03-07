@@ -1,8 +1,9 @@
 Este projeto é uma aplicação de classificação de imagens para distinguir gatos e cachorros utilizando técnicas de transferência de aprendizado. A seguir, uma explicação didática do funcionamento do programa:
 
 ## 1. Organização dos Dados
-Foi usado o dataset "Cat and Dog", pelo site Kaggle [text](https://www.kaggle.com/datasets/tongpython/cat-and-dog).
+Foi usado o dataset ["Cat and Dog"](https://www.kaggle.com/datasets/tongpython/cat-and-dog), vindo do site Kaggle.
 Os dados são organizados em pastas, onde cada subpasta representa uma classe (por exemplo, "cats" e "dogs"). Tanto o conjunto de treinamento quanto o de teste seguem essa estrutura, permitindo que os rótulos sejam inferidos automaticamente.
+
 ![Dataset](/images/dataset.png)
 
 ## 2. Pré-processamento e Carregamento
